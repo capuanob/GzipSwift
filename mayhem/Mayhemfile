@@ -1,0 +1,8 @@
+project: GzipSwift
+target: fuzz-gzip-swift
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /release/GzipFuzz
+    libfuzzer: true
